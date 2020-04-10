@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> SuperHeld Registratie Form </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <script src="script.js"></script>
+    
+        <div class="form-wrap">
+        
+            <form>
+            
+                <h1> SuperHeld Registratie Form </h1>
+
+                <label>
+                    Voornaam:
+                </label>
+                    <input type="text"id="name" placeholder="Uw naam"><br>
+                <label>
+                    Achternaam:
+                </label>
+                    <input type="text" id="lastname" placeholder="Uw achternaam"><br>
+                <label>
+                    SuperHeld Naam:
+                </label>
+                    <input type="text" id="heroname" placeholder="Uw SuperHeld naam"><br>
+                <label>
+                    Planeet van herkomst:
+                </label>
+                    <input type="text" id="planetname" placeholder="Uw planeet van herkomst"><br>
+                    <br>
+
+                    <label>
+                        Geslacht:
+                    </label>
+
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label class="gender">Man</label>
+                        
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label class="gender">Vrouw</label>
+                        
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label class="gender">Anders</label>
+                    <br>
+                    <br>
+
+                <label>SuperKracht:</label>
+                    <select id="superpowers">
+                        <option value="vliegen">Kan vliegen</option>
+                        <option value="gedachten">Kan gedachten lezen</option>
+                        <option value="snel">is supersnel</option>
+                        <option value="sterk">is supersterk</option>
+                        <option value="onzich">is onzichtbaar</option>
+                    </select>
+                    <br>
+
+                <label>Zwakte:</label>
+                <input type="text" id="weakness" placeholder="Uw zwakte"><br>
+                
+                <textarea 
+                    name="message" rows="10" cols="25">Beschrijf uw SuperHeld...
+                </textarea>
+                <br>
+                <br>
+
+                <input type="button" value="submit" onclick="alertfunction()">
+            
+            </form>
+        
+        </div>
+
+    </body>
+
+</html>
+
