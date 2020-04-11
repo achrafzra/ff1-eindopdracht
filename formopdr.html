@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="all">
+        <meta name="language" content="Dutch">
+        <meta name="author" content="Thabit Oulali">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="formopdr.css">
+        <script src="form.js"></script>
+        <title>Formulier</title>
+    </head>
+
+    <body>
+
+        <div class="one">
+            <h1>Super hero registration form</h1>
+                
+    <form action="form.js" method="POST">
+
+        <p> Firstname : <input type="text" name="firstname"></p>
+        <p> Lastname :  <input type="text" name="lastname"></p>
+        <p> Password :  <input type="password" name="password"></p>
+        <p> Super Hero Name:  <input type="text" name="mastername"></p>
+        <p> Planet of orgin : <input type="text" name="planet"></p>
+
+        <br>
+
+        <p>Gender :   
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male" class="black">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female" class="black">Female</label>
+        <input type="radio" id="other" name="gender" value="x">
+        <label for="other" class="black">X</label></p>
+
+        
+
+        <label for="superpower" class="black">Superpower : </label>
+        <select name="superpower" id="superpower">
+            <option value="Can fly">Can fly</option>
+            <option value="has fire">has fire</option>
+            <option value="has all money">has all money</option>
+        </select>
+        <!--<input type="number" id="send" oninput="result.value = send.value">-->
+        
+    
+
+        <br><br>
+
+        <label for="Weakness" class="black">Weakness : </label>
+        <select name="Weakness" id="Weakness">
+            <option value="Corona">Corona</option>
+            <option value="Tyfus">Tyfus</option>
+            <option value="Nothing">Nothing</option>
+        </select><br><br>
+
+        <label for="bio"></label>
+        <textarea id="bio" name="bio">blablabla</textarea>
+
+        <br><br>
+
+        <td>&nbsp;</td>
+        <input type="button" value="Submit" onclick="alertf()">
+    
+        
+    </form>
+        
+          </div> 
+
+
+
+
+
+    </body>
+</html>
