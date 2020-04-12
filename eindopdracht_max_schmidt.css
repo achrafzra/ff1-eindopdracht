@@ -1,0 +1,24 @@
+/*	Author: Max Schmidt
+	Date: 12-4-2020
+	Name: eindopdracht_max_schmidt.css
+*/
+#head{
+	text-align: center;
+	color: white;
+}
+.container{
+	text-align: center;
+}
+.textarea{
+	text-align: center;
+}
+body{
+	background-color: #3E77AC;
+}
+html{
+	background-color: white;
+	padding-top: 40px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 10px;
+}

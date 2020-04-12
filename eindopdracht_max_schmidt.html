@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--	Author: Max Schmidt
+		Date: 12-4-2020
+		Name: eindopdracht_max_schmidt.html
+-->
+<html>
+	<head>
+		<title>superhero</title>
+		<link rel="stylesheet" type="text/css" href="eindopdracht_max_schmidt.css">
+	</head>
+	
+	<body>
+
+	<h1 id="head">Superhero</h1>
+
+		<form>
+  			<label for="firstName">First Name:</label>
+ 				<div class="container">
+ 					<input type="text" name="firstName">
+ 				</div>
+
+ 			<label for="lastName">Last Name:</label>
+  				<div class="container">
+  					<input type="text" name="lastName">
+  				</div>
+
+  			<label for="superHero">Superhero Name:</label>
+  				<div class="container">
+  					<input type="text" name="superHero" id="superHero">
+  				</div>
+
+  			<label for="planet">Planet of origin:</label>
+  				<div class="container">
+  					<input type="text" name="planet">
+  				</div>
+
+
+  			<label for="gender">Gender:
+  				<div class="container">
+  					<input type="radio" name="gender"> Male
+  			</label>
+
+  			<label for="gender">
+  					<input type="radio" name="gender"> Female
+  			</label>
+
+  			<label for="gender">
+  					<input type="radio" name="gender"> X
+  				</div>
+  			</label>
+
+
+  			<p>Superpower:
+  			<select id="power">
+  				<option value="fly">Can Fly</option>
+  				<option value="strong">Superstrong</option>
+  				<option value="mindReading">Mindreading</option>
+  				<option value="timeTravel">Time Travel</option>
+			</select>
+			</p>
+
+			<p>Weakness:
+			<input list="weakness" name="weakness">
+  				<datalist id="weakness">
+    				<option value="Kryptonite">
+   					<option value="Fire">
+    				<option value="Water">
+    				<option value="Gamma">
+    				<option value="Daylight">
+  				</datalist>
+  			</p>
+
+  			<div class="textarea">
+  				<textarea>
+  					
+  				</textarea>
+  			</div>
+  		
+  		<br>
+
+  			<div class="textarea">
+  				<button id="mid" onclick="myFunction()">Verzenden</button>
+  			</div>
+
+		</form>
+
+		<script src="eindopdracht_max_schmidt.js"></script>
+		
+	</body>
+</html>
