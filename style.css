@@ -1,0 +1,25 @@
+html {
+    background-color: white;
+}
+
+body {
+    background-color: #3C82C9;
+    width: 25%;
+    margin: 10% auto;
+    padding: 3em;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+}
+
+input:[type="submit"] {
+    padding-left: 5000px;
+}
