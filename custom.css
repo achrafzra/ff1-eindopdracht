@@ -1,0 +1,20 @@
+#header{
+	text-align: center;
+	color: white;
+}
+.center{
+	text-align: center;
+}
+.text{
+	text-align: center;
+}
+body{
+	background-color: #3E77AC;
+}
+html{
+	background-color: white;
+	padding-top: 10px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 10px;
+} 
