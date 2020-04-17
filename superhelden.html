@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- page:superhelden
+                 author:Tomi Dzemov
+				 description:HW Frontend
+				 revision History
+				 1.Tommy Dzemov 4-4-2020
+                 Copyrightclaim Tomi Dzemov
+				 ----->
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Superhelden Site">
+        <meta name="keywords" content="HTML,CSS,Superhelden,Form">
+        <meta name="author" content="Tommy Dzemov">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Superhelden Site</title>
+        <link rel="stylesheet" href="superhelden.css">
+    </head>
+    
+    <body>
+        <script src="superheldenjava.js"></script>
+    
+        <div class="cube">
+        
+            <form>
+            
+                <h1> De Superhelden Site </h1>
+
+                <label>
+                    Voornaam:
+                </label>
+                    <input type="text"id="firstname" placeholder="Voornaam"><br>
+                <label>
+                    Achternaam:
+                </label>
+                    <input type="text" id="lastname" placeholder=" Achternaam"><br>
+                <label>
+                    Supernaam:
+                </label>
+                    <input type="text" id="heroname" placeholder="Uw Supernaam"><br>
+                <label>
+                    Geboorteplaneet:
+                </label>
+                    <input type="text" id="bornplanet" placeholder="Uw Geboorteplaneet"><br>
+                    <br>
+
+                    <label>
+                        Geslacht:
+                    </label>
+
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label class="lineage">Man</label>
+                        
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label class="lineage">Vrouw</label>
+                        
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label class="lineage">Anders</label>
+                
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label class="lineage">Wil ik niet zeggen</label>
+                    <br>
+                    <br>
+
+                <label>Super Duper Kracht:</label>
+                    <select id="power">
+                        <option value="vliegen">Selecteer je kracht</option>
+                        <option value="vliegen">Kan Vliegen</option>
+                        <option value="gedachten">Gedachtenlezer</option>
+                        <option value="snel">Ijzersterk</option>
+                        <option value="sterk">Supersterk</option>
+                        <option value="onzich">Onzichtbaar worden</option>
+                    </select>
+                    <br>
+
+                <label>Zwakte:</label>
+                <input type="text" id="weaknes" placeholder="Zwakte"><br>
+                
+                <textarea 
+                    name="message" rows="10" cols="25">Hoe ziet jou Superheld uit ? Beschrijf het hier ...
+                </textarea>
+                <br>
+                
+                <br>
+
+                <input type="button" value="Maak je Superheld aan" onclick="alertfunction()">
+            
+            </form>
+        
+        </div>
+
+    </body>
+
+</html>
+
